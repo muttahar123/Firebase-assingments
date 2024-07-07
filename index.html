@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireBase</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div id="auth_container">
+
+        <div>
+            <h3 id="create_acc">Create an Account</h3>
+            <input type="email" placeholder="email" id="signUp_email">
+            <input type="password" placeholder="password" id="signUp_password">
+            <button id="signUp_btn">Create account </button>
+        </div>
+        <div>
+            <h3 id="signIn_acc">Sign-In an Account</h3>
+            <input type="email" placeholder="email" id="signIn_email">
+            <input type="password" placeholder="password" id="signIn_password">
+            <button id="signIn_btn">SignIn account </button>
+        </div>
+    </div>
+    <div id="user_container">
+        <p>User Email:</p>
+        <h1 id="user_email"></h1>
+        <button id="logout_btn">Log Out</button>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
